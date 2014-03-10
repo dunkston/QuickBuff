@@ -19,10 +19,10 @@ namespace Buff
         }
         public override void Initialize()
         {
-            Commands.ChatCommands.Add(new Command("", Rbuff, "regen"));
-            Commands.ChatCommands.Add(new Command("", Mbuff, "melee"));
-            Commands.ChatCommands.Add(new Command("", Rabuff, "ranged"));
-            Commands.ChatCommands.Add(new Command("", Mabuff, "magic"));
+            Commands.ChatCommands.Add(new Command(new List<string>() {"qb.regen", "qb.all"}, Rbuff, "regen"));
+            Commands.ChatCommands.Add(new Command(new List<string>() {"qb.melee", "qb.all"}, Mbuff, "melee"));
+            Commands.ChatCommands.Add(new Command(new List<string>() {"qb.ranged", "qb.all"}, Rabuff, "ranged"));
+            Commands.ChatCommands.Add(new Command(new List<string>() {"qb.magic", "qb.all"}, Mabuff, "magic"));
         }
 
         public override Version Version
@@ -79,6 +79,7 @@ namespace Buff
               if (args.Player != null)
               {
                   args.Player.SetBuff(16, 30000, true);
+                  args.Player.SetBuff(26, 30000, true);
                   
                   args.Player.SendSuccessMessage("You got buffed");
               }
@@ -89,6 +90,7 @@ namespace Buff
               {
                   args.Player.SetBuff(6, 30000, true);
                   args.Player.SetBuff(7, 30000, true);
+                  args.Player.SetBuff(26, 30000, true);
 
                   args.Player.SendSuccessMessage("You got buffed");
               }
