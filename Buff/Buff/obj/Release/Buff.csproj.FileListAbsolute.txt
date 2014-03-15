@@ -1,0 +1,22 @@
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\obj\Release\Buff.csprojResolveAssemblyReference.cache
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\bin\Release\Buff.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\bin\Release\Buff.pdb
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\bin\Release\TerrariaServer.exe
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\bin\Release\TShockAPI.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\bin\Release\MySql.Data.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\bin\Release\HttpServer.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\bin\Release\Newtonsoft.Json.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\bin\Release\Mono.Data.Sqlite.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\obj\Release\Buff.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\Buff\obj\Release\Buff.pdb
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\bin\Release\Buff.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\bin\Release\Buff.pdb
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\bin\Release\MySql.Data.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\bin\Release\HttpServer.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\bin\Release\Newtonsoft.Json.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\bin\Release\Mono.Data.Sqlite.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\obj\Release\Buff.csprojResolveAssemblyReference.cache
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\obj\Release\Buff.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\obj\Release\Buff.pdb
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\bin\Release\TerrariaServer.exe
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\Buff\Buff\bin\Release\TShockAPI.dll
