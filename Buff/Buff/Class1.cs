@@ -79,13 +79,13 @@ namespace Buff
                 }
                 else
                 {
-                    args.Player.SetBuff(2, 30000, true);
-                    args.Player.SetBuff(5, 30000, true);
-                    args.Player.SetBuff(26, 30000, true);
-                    args.Player.SetBuff(48, 30000, true);
-                    args.Player.SetBuff(58, 30000, true);
-                    args.Player.SetBuff(87, 30000, true);
-                    args.Player.SetBuff(89, 30000, true);
+                    plr[0].SetBuff(2, 30000, true);
+                    plr[0].SetBuff(5, 30000, true);
+                    plr[0].SetBuff(26, 30000, true);
+                    plr[0].SetBuff(48, 30000, true);
+                    plr[0].SetBuff(58, 30000, true);
+                    plr[0].SetBuff(87, 30000, true);
+                    plr[0].SetBuff(89, 30000, true);
 
                     args.Player.SendSuccessMessage("You have buffed {0} with the regen buff set", plr[0].Name);
                 }
@@ -120,11 +120,11 @@ namespace Buff
                 }
                 else
                 {
-                    args.Player.SetBuff(14, 30000, true);
-                    args.Player.SetBuff(25, 30000, true);
-                    args.Player.SetBuff(26, 30000, true);
-                    args.Player.SetBuff(62, 30000, true);
-                    args.Player.SetBuff(76, 30000, true);
+                    plr[0].SetBuff(14, 30000, true);
+                    plr[0].SetBuff(25, 30000, true);
+                    plr[0].SetBuff(26, 30000, true);
+                    plr[0].SetBuff(62, 30000, true);
+                    plr[0].SetBuff(76, 30000, true);
 
                     args.Player.SendSuccessMessage("You have buffed {0} with the melee buff set", plr[0].Name);
                 }
@@ -156,8 +156,8 @@ namespace Buff
             }
             else
             {
-                args.Player.SetBuff(16, 30000, true);
-                args.Player.SetBuff(26, 30000, true);
+                plr[0].SetBuff(16, 30000, true);
+                plr[0].SetBuff(26, 30000, true);
 
                 args.Player.SendSuccessMessage("You have buffed {0} with the ranged buff set", plr[0].Name);
             }
@@ -190,9 +190,9 @@ namespace Buff
                 }
                 else
                 {
-                    args.Player.SetBuff(6, 30000, true);
-                    args.Player.SetBuff(7, 30000, true);
-                    args.Player.SetBuff(26, 30000, true);
+                    plr[0].SetBuff(6, 30000, true);
+                    plr[0].SetBuff(7, 30000, true);
+                    plr[0].SetBuff(26, 30000, true);
 
                     args.Player.SendSuccessMessage("You have buffed {0} with the magic buff set", plr[0].Name);
                 }
