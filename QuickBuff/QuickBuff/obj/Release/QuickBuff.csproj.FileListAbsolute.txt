@@ -1,0 +1,22 @@
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\obj\Release\QuickBuff.csprojResolveAssemblyReference.cache
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\bin\Release\QuickBuff.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\bin\Release\QuickBuff.pdb
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\bin\Release\TerrariaServer.exe
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\bin\Release\TShockAPI.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\bin\Release\MySql.Data.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\bin\Release\HttpServer.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\bin\Release\Newtonsoft.Json.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\bin\Release\Mono.Data.Sqlite.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\obj\Release\QuickBuff.dll
+C:\Users\besca_000\AppData\Local\Temporary Projects\QuickBuff\obj\Release\QuickBuff.pdb
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\bin\Release\QuickBuff.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\bin\Release\QuickBuff.pdb
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\bin\Release\TerrariaServer.exe
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\bin\Release\TShockAPI.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\bin\Release\MySql.Data.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\bin\Release\HttpServer.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\bin\Release\Newtonsoft.Json.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\bin\Release\Mono.Data.Sqlite.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\obj\Release\QuickBuff.csprojResolveAssemblyReference.cache
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\obj\Release\QuickBuff.dll
+C:\Users\besca_000\Documents\Visual Studio 2010\Projects\QuickBuff\QuickBuff\obj\Release\QuickBuff.pdb

@@ -6,13 +6,13 @@ using TShockAPI;
 using Terraria;
 using TerrariaApi.Server;
 
-namespace Buff
+namespace QuickBuff
 {
-    [ApiVersion(1, 15)]
+    [ApiVersion(1, 16)]
 
-    public class Buff : TerrariaPlugin
+    public class QuickBuff : TerrariaPlugin
     {
-        public Buff(Main game)
+        public QuickBuff(Main game)
             : base(game)
         {
             Order = 4;
@@ -24,13 +24,13 @@ namespace Buff
             Commands.ChatCommands.Add(new Command(new List<string>() { "qb.melee", "qb.all" }, Mbuff, "melee"));
             Commands.ChatCommands.Add(new Command(new List<string>() { "qb.ranged", "qb.all" }, Rabuff, "ranged"));
             Commands.ChatCommands.Add(new Command(new List<string>() { "qb.magic", "qb.all" }, Mabuff, "magic"));
-            Commands.ChatCommands.Add(new Command(new List<string>() { "qb.debuff", "qb.all"}, Dbuff, "debuff"));
+            Commands.ChatCommands.Add(new Command(new List<string>() { "qb.debuff", "qb.all" }, Dbuff, "debuff"));
             Commands.ChatCommands.Add(new Command("", help, "qb", "quickbuff"));
         }
-        
+
         public override Version Version
         {
-            get { return new Version("1.1"); }
+            get { return new Version("1.2"); }
         }
 
         public override string Name
@@ -145,23 +145,23 @@ namespace Buff
             }
             else
             {
-            var plr = TShock.Utils.FindPlayer(args.Parameters[0]);
-            if (plr.Count < 1)
-            {
-                args.Player.SendErrorMessage("Invalid Player!");
-            }
-            else if (plr.Count > 1)
-            {
-                TShock.Utils.SendMultipleMatchError(args.Player, plr.Select(p => p.Name));
-            }
-            else
-            {
-                plr[0].SetBuff(16, 30000, true);
-                plr[0].SetBuff(26, 30000, true);
+                var plr = TShock.Utils.FindPlayer(args.Parameters[0]);
+                if (plr.Count < 1)
+                {
+                    args.Player.SendErrorMessage("Invalid Player!");
+                }
+                else if (plr.Count > 1)
+                {
+                    TShock.Utils.SendMultipleMatchError(args.Player, plr.Select(p => p.Name));
+                }
+                else
+                {
+                    plr[0].SetBuff(16, 30000, true);
+                    plr[0].SetBuff(26, 30000, true);
 
-                args.Player.SendSuccessMessage("You have buffed {0} with the ranged buff set", plr[0].Name);
+                    args.Player.SendSuccessMessage("You have buffed {0} with the ranged buff set", plr[0].Name);
+                }
             }
-        }
         }
         public static void Mabuff(CommandArgs args)
         {
@@ -244,18 +244,18 @@ namespace Buff
                     args.Player.SendInfoMessage("For help, type /qb help");
                 }
                 else if (args.Parameters[0] == "commands")
-                    {
-                        args.Player.SendInfoMessage("Commads:");
-                        args.Player.SendInfoMessage("/regen");
-                        args.Player.SendInfoMessage("/melee");
-                        args.Player.SendInfoMessage("/ranged");
-                        args.Player.SendInfoMessage("/magic");
-                        args.Player.SendInfoMessage("/debuff");
-                        args.Player.SendInfoMessage("/qb");
-                    }
+                {
+                    args.Player.SendInfoMessage("Commads:");
+                    args.Player.SendInfoMessage("/regen");
+                    args.Player.SendInfoMessage("/melee");
+                    args.Player.SendInfoMessage("/ranged");
+                    args.Player.SendInfoMessage("/magic");
+                    args.Player.SendInfoMessage("/debuff");
+                    args.Player.SendInfoMessage("/qb");
+                }
                 else if (args.Parameters[0] == "help")
                 {
-                    
+
                     if (args.Parameters[1] == "regen")
                     {
                         args.Player.SendInfoMessage("Syntax: /regen [player]");
@@ -297,7 +297,7 @@ namespace Buff
                         args.Player.SendErrorMessage("Invalid command");
                     }
                 }
-              }
             }
         }
- }
+    }
+}
